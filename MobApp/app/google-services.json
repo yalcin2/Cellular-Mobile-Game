@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "206893442855",
+    "firebase_url": "https://mobapp-bf4b4.firebaseio.com",
+    "project_id": "mobapp-bf4b4",
+    "storage_bucket": "mobapp-bf4b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206893442855:android:1310ae0f85b405b1",
+        "android_client_info": {
+          "package_name": "auth.yalcin.mobapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206893442855-shng1s51756c84ijph02arag0lvdi7ok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "auth.yalcin.mobapp",
+            "certificate_hash": "ed656dd0b37be9f1247ea7f81034c7efcaadd085"
+          }
+        },
+        {
+          "client_id": "206893442855-rh5qm6ur8j2r4ismvf5adb0m4jvdtlsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOfLbAtB5joJF0slAijpFwy0fLzgcvDwY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206893442855-rh5qm6ur8j2r4ismvf5adb0m4jvdtlsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
