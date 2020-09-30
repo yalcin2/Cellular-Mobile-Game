@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6869801595441103913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6869801595441103927}
+  - component: {fileID: 6869801594846578092}
+  - component: {fileID: 6869801595441103926}
+  - component: {fileID: 6869801594846578102}
+  - component: {fileID: 6869801594846578091}
+  - component: {fileID: 6869801594846578088}
+  - component: {fileID: 6869801594846578089}
+  - component: {fileID: 6869801595441103924}
+  m_Layer: 0
+  m_Name: GAME HANDLER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6869801595441103927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869801595441103913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 200.81721, y: 194.82259, z: -10.78125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6869801594846578092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869801595441103913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ca3ed37a0c5da4b8880bbe457cc680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelBar: {fileID: 0}
+  currentRank: {fileID: 0}
+  playerScore: {fileID: 0}
+  playerSecondaryScore: {fileID: 0}
+  cellsSpawnlevel: {fileID: 0}
+  cellsToSpawnlevel: {fileID: 0}
+--- !u!114 &6869801595441103926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869801595441103913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac9f63d27e918b45bd41df5f1c376f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consumable: {fileID: 8064556185100402848, guid: bd1a67c64a35ef24bb5899751ccff948,
+    type: 3}
+  holder: {fileID: 0}
+  center: {x: 0, y: 0, z: 0}
+  size: {x: 65.5, y: 58, z: 0}
+--- !u!114 &6869801594846578102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869801595441103913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977ea8966059be5468e442823debfe3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill_interface: {fileID: 0}
+  currentPoints: {fileID: 0}
+  showFirstTierUpgrade: {fileID: 0}
+  showFirstTierUpgrade_2: {fileID: 0}
+  currentFirstSubSkill: {fileID: 0}
+  currentFirstSubSkill_2: {fileID: 0}
+  addFirstSubSkillBtn: {fileID: 0}
+  addFirstSubSkillBtn_2: {fileID: 0}
+  unlockFirstSkillButton: {fileID: 0}
+  unlockSecondSkillButton: {fileID: 0}
+--- !u!114 &6869801594846578091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869801595441103913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e0319bff8b90643afb781ccec3ae53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shop_interface: {fileID: 0}
+  upgradeOneBtn: {fileID: 0}
+  upgradeTwoBtn: {fileID: 0}
+  upgradeOnePriceText: {fileID: 0}
+  upgradeTwoPriceText: {fileID: 0}
+--- !u!114 &6869801594846578088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869801595441103913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ad84e59e515a241816ccbd0ec77d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObject: {fileID: 0}
+  magnetField: {fileID: 0}
+--- !u!114 &6869801594846578089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869801595441103913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51bce35cc9f749e4992fc6e77ac74cc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topPanel: {fileID: 0}
+  targetPosition: {fileID: 0}
+  returnPosition: {fileID: 0}
+  showHideText: {fileID: 0}
+--- !u!114 &6869801595441103924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869801595441103913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23106810d568a2d4492cf23b49da6ca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterPause: 0.2
+  typeSound1: {fileID: 0}
+  typeSound2: {fileID: 0}
+  textComp: {fileID: 0}
